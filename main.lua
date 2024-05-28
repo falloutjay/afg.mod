@@ -156,7 +156,7 @@ end)
 
 do
     local Window = Fluent: CreateWindow ({
-        Title = "MOD CLIENT | ZYXCOMPARE",
+        Title = "ZyxCompare Mod Client",
         SubTitle = ".",
         TabWidth = 160,
         Size = UDim2.fromOffset (580, 460),
@@ -167,7 +167,7 @@ do
     local Tabs = { Aimbot = Window: AddTab ({ Title = "Aimbot", Icon = "bot" }) }
 
     Tabs.Aimbot:AddParagraph ({
-        Title = "Modded Client",
+        Title = "Enjoy!",
         Content = "MODIFIED"
     })
 
